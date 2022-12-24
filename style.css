@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.picture{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.navbar{  
+    display:flex;
+    width: 90%;
+    margin:auto;
+    padding: 35px 0; 
+    align-items: top;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 20px;
+    position: relative;  
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}    
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    text-align:center;
+    color:#fff
+}
+.content h1{
+    font-size:70px;
+    margin-top:20px;
+}
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
+
+}
+.button{
+    width:100%;
+    position:absolute;
+    top: 59%;
+    transform: translateY(-60);
+    text-align: center;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    background: transparent;
+    color:aqua;
+    cursor:pointer;
+    margin:20px 10px;
+    border-radius:20px;
+    border:2px solid aqua;
+}
+.submit{
+    width: 100%;
+    position: absolute;
+    top:75%;
+    transform: translateY(-70);
+    text-align:center;
+}
+submit{
+    width: 200px;
+    padding: 15px o;
+    text-align: center;
+    background: transparent;
+    color: aqua;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 20px;
+    border: 2px solid aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 25px 30px;
+    position: relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav ul li:hover::after{
+    width:100%;
+}
+.footer{
+    text-align: center;
+    padding: 7px;
+    top: 90%;
+    transform: translateY(-80);
+    background: pink;
+}
+.footer{
+    text-decoration: none;
+    color:black;
+}
+.sign{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("image2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.na ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 25px 30px;
+    position: relative;
+}
+.na ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.na ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.na ul li:hover::after{
+    width:100%;
+}
+.colors h1 ul li {
+    text-decoration: none;
+    color:white;
+}
+.loginpage1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image7.png");
+    background-size: cover;
+    background-position: center;
+}
+.bar ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 25px 30px;
+    position: relative;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.bar ul li:hover::after{
+    width:100%;
+}
+.information{
+    width: 100%;
+    position: absolute;
+    top: 9%;
+    transform: translateY(-15);
+    text-align:center;
+    color:aqua
+}
+.information h1{
+    font-size:70px;
+    margin-top:15px;
+}
+.donatepage{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("image3.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.ba ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 25px 30px;
+    position: relative;
+}
+.ba ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.ba ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.ba ul li:hover::after{
+    width:100%;
+}
+.colors{
+    color:white;
+}
+.donate{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50);
+    text-align:center;
+    color:#fff
+}
+.donate h1{
+    font-size:70px;
+    margin-top:20px;
+    color: blue;
+}
+.donate p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
+    color:yellow;
+}
+.loginpage{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url("image13.jpg");
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("about1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.b ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 25px 30px;
+    position: relative;
+}
+.b ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.b ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.b ul li:hover::after{
+    width:100%;
+}
+.aboutus{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50);
+    text-align:center;
+}
+.aboutus h1{
+    font-size:70px;
+    margin-top:20px;
+    color:yellow
+}
+.aboutus p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
+    color:aqua
+}
